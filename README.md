@@ -38,5 +38,5 @@ CreateImage.m code file link: https://github.com/somdipdey/SoCodeCNN/blob/master
 
 ## Citation
 ***
-Dey, Somdip, Amit Kumar Singh, Dilip Kumar Prasad, and Klaus McDonald-Maier. "[SoCodeCNN: Program Source Code for Visual CNN Classification Using Computer Vision Methodology](https://ieeexplore.ieee.org/document/8882216)." IEEE Access (2019).
+***Dey, Somdip, Amit Kumar Singh, Dilip Kumar Prasad, and Klaus McDonald-Maier. "[SoCodeCNN: Program Source Code for Visual CNN Classification Using Computer Vision Methodology](https://ieeexplore.ieee.org/document/8882216)." IEEE Access (2019).***
 ***
