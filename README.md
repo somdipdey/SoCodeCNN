@@ -1,5 +1,5 @@
 # SoCodeCNN
-Main program code to convert Program Source Code in C language to SoCodeCNN Images, as explained in the paper, "SoCodeCNN: Program Source Code for Visual CNN Classification Using Computer Vision Methodology", published in IEEE Access (2019).
+Main program code to convert Program Source Code in C language to SoCodeCNN Images, as explained in the paper, "[SoCodeCNN: Program Source Code for Visual CNN Classification Using Computer Vision Methodology](https://ieeexplore.ieee.org/document/8882216)", published in IEEE Access (2019).
 
 ***Note:*** Since, the automation process differs between OS/hardware platforms, in this code repository we provide the basic instuctions/code and tools so that the key components of the SoCodeCNN methodology could be built and implemented on your chosen platform with least effort. You need to automate the final process on your chosen platform as required.
 
