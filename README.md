@@ -12,9 +12,11 @@ Installation details on Clang-LLVM could be accessed here: https://clang.llvm.or
 
 ## Usage
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/8515608/67781905-f887d780-fa5f-11e9-834e-5826b544214c.png)
 
-      **SoCodeCNN Block Diagram**
+**SoCodeCNN Block Diagram**
+</p>
 
 ### IR Generator
 
