@@ -9,3 +9,13 @@ You would also require to install clang on your system. Clang is a compiler fron
 ## Usage
 
 ![image](https://user-images.githubusercontent.com/8515608/67781905-f887d780-fa5f-11e9-834e-5826b544214c.png)
+
+### IR Generator
+
+To generate LLVM IR of your program with name, MyProgram.c then you have to use the following command to achieve the LLVM IR:
+
+```
+$ clang -emit-llvm -S MyProgram.c -o MyProgram.ll
+```
+
+In the aofrementioned command, MyProgram.ll is the file representing the LLVM IR code.
