@@ -1,7 +1,7 @@
 # SoCodeCNN
 Main program code to convert Program Source Code in C language to SoCodeCNN Images, as explained in the paper, "SoCodeCNN: Program Source Code for Visual CNN Classification Using Computer Vision Methodology", published in IEEE Access (2019).
 
-***Note:*** Since, the automation process differs between OS/hardware platforms, in this code repository we provide the basic instuction and tools so that the key components of the SoCodeCNN methodology could be built and implemented on your chosen platform with least effort. You need to automate the final process on your chosen platform as required.
+***Note:*** Since, the automation process differs between OS/hardware platforms, in this code repository we provide the basic instuctions/code and tools so that the key components of the SoCodeCNN methodology could be built and implemented on your chosen platform with least effort. You need to automate the final process on your chosen platform as required.
 
 ## Requirements
 Please make sure that LLVM compiler is installed in your computer. More details on LLVM could be accessed from here: http://laure.gonnord.org/pro/research/ER03_2015/lab1_intro.pdf 
@@ -28,4 +28,6 @@ In the aforementioned command, MyProgram.ll is the text file representing the LL
 
 ## Image Creator
 
-To create SoCodeCNN images you could use the MatLab code provided in CreateImage.m in this folder. In the CreateImage.m file, you need to specify the input file, which is the LLVM IR code, in our example that would be MyProgram.ll. The SoCodeCNN (output) image would be MyProgram.png. 
+To create SoCodeCNN images you could use the MatLab code provided in CreateImage.m in this folder. In the **CreateImage.m** file, you need to specify the input file, which is the LLVM IR code, in our example that would be **MyProgram.ll**. The SoCodeCNN (output) image would be **MyProgram.png**. In **CreateImage.m** code file, you would need to to change the name of the input file and output file in case you want the name to be different from our example here.
+
+Code file link: 
