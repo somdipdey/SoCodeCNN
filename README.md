@@ -30,4 +30,9 @@ In the aforementioned command, MyProgram.ll is the text file representing the LL
 
 To create SoCodeCNN images you could use the MatLab code provided in CreateImage.m in this folder. In the **CreateImage.m** file, you need to specify the input file, which is the LLVM IR code, in our example that would be **MyProgram.ll**. The SoCodeCNN (output) image would be **MyProgram.png**. In **CreateImage.m** code file, you would need to to change the name of the input file and output file in case you want the name to be different from our example here.
 
-Code file link: 
+CreateImage.m code file link: https://github.com/somdipdey/SoCodeCNN/blob/master/CreateImage.m
+
+## Citation
+```
+Dey, Somdip, Amit Kumar Singh, Dilip Kumar Prasad, and Klaus McDonald-Maier. "[SoCodeCNN: Program Source Code for Visual CNN Classification Using Computer Vision Methodology](https://ieeexplore.ieee.org/document/8882216)." IEEE Access (2019).
+```
