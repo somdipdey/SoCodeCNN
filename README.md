@@ -18,4 +18,6 @@ To generate LLVM IR of your program with name, MyProgram.c then you have to use 
 $ clang -emit-llvm -S MyProgram.c -o MyProgram.ll
 ```
 
-In the aofrementioned command, MyProgram.ll is the file representing the LLVM IR code.
+In the aforementioned command, MyProgram.ll is the text file representing the LLVM IR code. **-S** wild card instructs the LLVM to create a text file for IR code, whereas **-c** wild card instructs to create a binary file instead. Extra help could on the topic could be found here: https://www.inf.ed.ac.uk/teaching/courses/ct/17-18/slides/llvm-1-intro.pdf 
+
+***Note:*** You can also use **opt** tool to optimize LLVM IR code. More details are avlailable here: https://subscription.packtpub.com/book/application_development/9781785285981/1/ch01lvl1sec16/transforming-llvm-ir 
