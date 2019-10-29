@@ -14,6 +14,8 @@ Installation details on Clang-LLVM could be accessed here: https://clang.llvm.or
 
 ![image](https://user-images.githubusercontent.com/8515608/67781905-f887d780-fa5f-11e9-834e-5826b544214c.png)
 
+      **SoCodeCNN Block Diagram**
+
 ### IR Generator
 
 To generate LLVM IR of your program with name, MyProgram.c then you have to use the following command to achieve the LLVM IR:
@@ -26,11 +28,13 @@ In the aforementioned command, MyProgram.ll is the text file representing the LL
 
 ***Note:*** You can also use **opt** tool to optimize LLVM IR code. More details are avlailable here: https://subscription.packtpub.com/book/application_development/9781785285981/1/ch01lvl1sec16/transforming-llvm-ir 
 
-## Image Creator
+### Image Creator
 
 To create SoCodeCNN images you could use the MatLab code provided in CreateImage.m in this folder. In the **CreateImage.m** file, you need to specify the input file, which is the LLVM IR code, in our example that would be **MyProgram.ll**. The SoCodeCNN (output) image would be **MyProgram.png**. In **CreateImage.m** code file, you would need to to change the name of the input file and output file in case you want the name to be different from our example here.
 
 CreateImage.m code file link: https://github.com/somdipdey/SoCodeCNN/blob/master/CreateImage.m
+
+*********************************************************************
 
 ## Citation
 ***
