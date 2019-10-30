@@ -34,6 +34,8 @@ To create SoCodeCNN images you could use the MatLab code provided in CreateImage
 
 CreateImage.m code file link: https://github.com/somdipdey/SoCodeCNN/blob/master/CreateImage.m
 
+----------------------------------------------------------------------------
+
 #### Pixelator program code
 Program code for ***Pixelator*** is available here: https://github.com/somdipdey/Pixelator-View
 
